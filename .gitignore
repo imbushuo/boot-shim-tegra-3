@@ -1,0 +1,17 @@
+*.o
+*.efi
+*.vhd
+*.sdf
+*.suo
+*.opensdf
+*.opendb
+*.fd
+*.db*
+arm
+aa64
+x86_64
+x86_32
+image
+.vs
+build
+objs

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{b1c3b304-e868-4b07-988c-36ad7bc57300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ARM">
+      <UniqueIdentifier>{73487f8a-c052-47e0-9eb8-050474d682d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ELF">
+      <UniqueIdentifier>{3f778fe3-0acc-4ed9-8806-1af29d71bcad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Processor">
+      <UniqueIdentifier>{119ea8e3-3989-47bb-a467-8b8ba2aa9da8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Primitives">
+      <UniqueIdentifier>{062e6eb6-0891-4995-ae75-c2cab206170b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Application">
+      <UniqueIdentifier>{681b8a20-8157-4e56-8db5-cd27053bd5bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ELF">
+      <UniqueIdentifier>{29dfd0be-76ca-4357-a10c-cc7f96419f93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BootApp">
+      <UniqueIdentifier>{6545b30e-8bfb-457e-9ed6-bf13d743d0b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Protocol">
+      <UniqueIdentifier>{91e5a9c3-073f-4d2e-9b35-324b932b95ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\elf.h">
+      <Filter>Header Files\ELF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\ProcessorSupport.h">
+      <Filter>Header Files\Processor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\xplatprimitives.h">
+      <Filter>Header Files\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\suptypes.h">
+      <Filter>Header Files\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\ntstatus.h">
+      <Filter>Header Files\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\application.h">
+      <Filter>Header Files\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\bl.h">
+      <Filter>Header Files\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\context.h">
+      <Filter>Header Files\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\lk.h">
+      <Filter>Header Files\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\EFIApp.h">
+      <Filter>Header Files\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\scm.h">
+      <Filter>Header Files\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\PCIe.h">
+      <Filter>Header Files\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\PreloaderEnvironment.h">
+      <Filter>Header Files\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\BlBootConfiguration.h">
+      <Filter>Header Files\Application</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\EFIApp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Context.c">
+      <Filter>Source Files\BootApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\BlApplicationEntry.c">
+      <Filter>Source Files\BootApp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="..\..\src\ARM\ProcessorSupport.asm">
+      <Filter>Source Files\ARM</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
