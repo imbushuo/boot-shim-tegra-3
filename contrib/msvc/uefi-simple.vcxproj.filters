@@ -27,9 +27,6 @@
     <Filter Include="Header Files\Application">
       <UniqueIdentifier>{681b8a20-8157-4e56-8db5-cd27053bd5bc}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\ELF">
-      <UniqueIdentifier>{29dfd0be-76ca-4357-a10c-cc7f96419f93}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\BootApp">
       <UniqueIdentifier>{6545b30e-8bfb-457e-9ed6-bf13d743d0b7}</UniqueIdentifier>
     </Filter>
